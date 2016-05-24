@@ -17,9 +17,10 @@ except AttributeError:
     ROOT = os.path.dirname(os.path.realpath(__file__))
 
 COLORED_LABELS = (
-    ("1192FC", "investigating",),
-    ("FFA500", "degraded performance"),
-    ("FF4D4D", "major outage", )
+    ("1192FC", "investigating",),           # blue
+    ("FFA500", "degraded performance"),     # yellow
+    ("FF4D4D", "major outage", ),           # red
+    ("DBE344", "scheduled maintenance")     # deep yellow
 )
 
 STATUSES = [status for _, status in COLORED_LABELS]
