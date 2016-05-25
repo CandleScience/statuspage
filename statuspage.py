@@ -20,7 +20,7 @@ COLORED_LABELS = (
     ("1192FC", "investigating",),           # blue
     ("FFA500", "degraded performance"),     # yellow
     ("FF4D4D", "major outage", ),           # red
-    ("DBE344", "scheduled maintenance")     # deep yellow
+    ("FFFF00", "scheduled maintenance")     # deep yellow
 )
 
 STATUSES = [status for _, status in COLORED_LABELS]
