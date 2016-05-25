@@ -43,7 +43,7 @@ def cli():  # pragma: no cover
 @cli.command()
 @click.option('--name', prompt='Name', help='')
 @click.option('--token', prompt='GitHub API Token', help='')
-@click.option('--org', help='GitHub Organization', default=False)
+@click.option('--org', help='GitHub Organization', default="CandleScience")
 @click.option('--systems', prompt='Systems, eg (Website,API)', help='')
 def create(token, name, systems, org):
     run_create(name=name, token=token, systems=systems, org=org)
